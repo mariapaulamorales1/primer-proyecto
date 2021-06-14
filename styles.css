@@ -1,0 +1,120 @@
+/*titulos*/
+h1{
+    color: rgb(43, 220, 226);/*color de la letra*/
+    text-align: center;/*aliniar el texto*/
+    font-size: 43px;/*tamaño de la letra*/
+    font-family:'Pattaya', sans-serif; /*diseño de la letra*/
+}
+/*fondo de la pagina*/
+body{
+   background-color: black;/*color de fondo*/
+}
+/*parrafo*/
+p {
+    font-size: 30px;
+    color: ghostwhite;
+    display: flex end;
+    justify-content:flex-end;
+     
+}
+/*poner estilo al menu*/
+.menu{
+    display: flex;/*para que el menu se vuelva flexible*/
+    justify-content: center;
+    height: 50px;/*se puede definir el alto */
+    align-items: center;
+}
+.menu li{
+    list-style: none;/*quitar los puntos*/
+    margin-left: 30px;/*margen izquierda*/
+    margin-right: 30px;/*margen izquierda*/
+}
+/*poner estilo a la letra del menu*/
+nav { 
+    background-color: rgba(147, 111, 246, 0.938);
+    height: 80px;
+    color: rgb(39, 2, 42);
+    font-size: 30px;
+    font-family:'Dancing Script', cursive;
+}
+label{
+    color: rgb(138, 41, 230);
+    font-size: 35px;
+}
+
+.input_contacto {
+    width: 50%;/*ancho de un elemento*/
+    height: 20%;/*alto de un elemento*/
+    border: 3px rgb(60, 9, 197) solid;/*borde a un elemnto*/
+}
+
+.boton_contacto{
+    text-align: center;
+    margin-top: 15px;
+}
+form{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+.texto{
+    display: flex;
+    justify-content: left;
+    color: cornsilk;
+    text-align: center;
+  
+}
+.imagen{
+    float: left;
+    margin-bottom: 20px;/*margen de abajo*/
+    margin-right: 20px;
+    width: 25%;
+}
+h2{
+    color: cornsilk;
+    margin-top: 8%;/*margen de arriba*/
+   font-size: 40px;
+}
+
+.personaje{
+    width: 25%;
+    height: 25%;
+    text-align: center; 
+    border: blueviolet solid 5px;
+    margin: 3%;
+    
+}
+
+.personaje div{
+    text-align: center;
+    font-size: 30%;
+}
+
+.todopersonajes{
+    display: flex;
+ flex-wrap: wrap;
+}
+
+.bg-purple{
+    background-color: blueviolet;
+}
+
+.fondo-morado{
+    background-color: blueviolet;
+    width: 30%;
+    height: 50px;
+    margin: 7px;
+}
+
+.alto-carousel{
+    height: 450px;
+}
+.card-text{
+color: black;
+font-size: 20px;
+}
+
+.descripcion{
+    height: 200px;
+}
+
